@@ -16,7 +16,7 @@ namespace Proyecto
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmlLogin());
+            Application.Run(new Container());
         }
     }
 }

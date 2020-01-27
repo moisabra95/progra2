@@ -17,5 +17,24 @@ namespace Proyecto
         {
             InitializeComponent();
         }
+
+
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            Container c = new Container();
+            c.Show();
+            this.Hide();
+
+        }
+
+        private void frmlLogin_Load(object sender, EventArgs e)
+        { 
+        }
     }
 }
