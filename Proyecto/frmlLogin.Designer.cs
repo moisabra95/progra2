@@ -1,6 +1,6 @@
 ﻿namespace Proyecto
 {
-    partial class Form1
+    partial class frmlLogin
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -28,9 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // frmlLogin
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(544, 366);
+            this.Name = "frmlLogin";
+            this.Text = "Login | Tienda la bendición";
+            this.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.ResumeLayout(false);
+
         }
 
         #endregion
